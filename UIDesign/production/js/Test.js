@@ -1,0 +1,1 @@
+alert('This message is from Test.js');
