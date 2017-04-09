@@ -207,6 +207,7 @@
     <Content Include="Scripts\image\forward_enabled_hover.png" />
     <Content Include="Scripts\image\img.jpg" />
     <Content Include="Scripts\image\loading.gif" />
+    <Content Include="Scripts\image\Moto.png" />
     <Content Include="Scripts\image\USA.png" />
     <Content Include="Scripts\js\custom.js" />
     <Content Include="Scripts\js\custom.min.js" />

@@ -13,7 +13,7 @@ namespace Log.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Map", "Map");
         }
     }
 }
