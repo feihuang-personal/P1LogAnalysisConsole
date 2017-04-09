@@ -16,5 +16,15 @@ namespace Log.Controllers
             return View();
         }
 
+        public ActionResult RepositoryList() 
+        {
+            return View("~/Views/Home/RepositoryList.cshtml");
+        }
+
+        public ActionResult SearchResult()
+        {
+            return View("~/Views/Home/SearchResult.cshtml");
+        }
+
     }
 }
