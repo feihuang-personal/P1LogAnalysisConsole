@@ -10,12 +10,6 @@ namespace Log.Controllers
     {
         //
         // GET: /Repository/
-
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         public ActionResult MyRepositories()
         {
             return View();

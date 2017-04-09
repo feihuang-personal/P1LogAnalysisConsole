@@ -6,12 +6,11 @@ using System.Web.Mvc;
 
 namespace Log.Controllers
 {
-    public class HomeController : Controller
+    public class MapController : Controller
     {
         //
-        // GET: /Home/
-
-        public ActionResult Index()
+        // GET: /Map/
+        public ActionResult Map()
         {
             return View();
         }

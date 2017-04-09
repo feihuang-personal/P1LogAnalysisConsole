@@ -6,12 +6,11 @@ using System.Web.Mvc;
 
 namespace Log.Controllers
 {
-    public class HomeController : Controller
+    public class SearchResultController : Controller
     {
         //
-        // GET: /Home/
-
-        public ActionResult Index()
+        // GET: /SearchResult/
+        public ActionResult SearchResult()
         {
             return View();
         }

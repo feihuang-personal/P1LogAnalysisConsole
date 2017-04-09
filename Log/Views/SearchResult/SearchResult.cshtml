@@ -1,0 +1,226 @@
+﻿@{
+    ViewBag.Title = "P1 Log Analysis Console - The Need For Daily Customer Issue Investigation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="clearfix"></div>
+<div class="row">
+    <section class="cd-horizontal-timeline">
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol>
+                        <li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+                        <li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
+                        <li><a href="#0" data-date="20/04/2014">20 Mar</a></li>
+                        <li><a href="#0" data-date="20/05/2014">20 May</a></li>
+                        <li><a href="#0" data-date="09/07/2014">09 Jul</a></li>
+                        <li><a href="#0" data-date="30/08/2014">30 Aug</a></li>
+                        <li><a href="#0" data-date="15/09/2014">15 Sep</a></li>
+                        <li><a href="#0" data-date="01/11/2014">01 Nov</a></li>
+                        <li><a href="#0" data-date="10/12/2014">10 Dec</a></li>
+                        <li><a href="#0" data-date="19/01/2015">29 Jan</a></li>
+                        <li><a href="#0" data-date="03/03/2015">3 Mar</a></li>
+                    </ol>
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div> <!-- .events -->
+            </div> <!-- .events-wrapper -->
+
+            <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul> <!-- .cd-timeline-navigation -->
+        </div>
+    </section>
+        <div class="" role="tabpanel" data-example-id="togglable-tabs">
+            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">CADS</a>
+                </li>
+                <li role="presentation" class="">
+                    <a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">CADP</a>
+                </li>
+                <li role="presentation" class="">
+                    <a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Common Service</a>
+                </li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                    <!-- start user projects -->
+                    <table class="data table table-striped no-margin">
+                        <thead>
+                            <tr>
+                                <th style"width:1%;">#</th>
+                                <th style="width:3%;">Time</th>
+                                <th>Module</th>
+                                <th>Message</th>
+                                <th>Stack Trace</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2017-02-16 13:37:59</td>
+                                <td>MessagesScreen</td>
+                                <td class="vertical-align-mid">
+                                    System.TimeoutException: The request channel timed out while waiting for a reply after 00:00:44.5147458.
+                                </td>
+                                <td class="vertical-align-mid">
+                                    at System.ServiceModel.Channels.RequestChannel.Request
+                                    at System.ServiceModel.Channels.SecurityChannelFactory
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2017-02-16 13:37:59</td>
+                                <td>MessagesScreen</td>
+                                <td class="vertical-align-mid">
+                                    System.TimeoutException: The request channel timed out while waiting for a reply after 00:00:44.5147458.
+                                </td>
+                                <td class="vertical-align-mid">
+                                    at System.ServiceModel.Channels.RequestChannel.Request
+                                    at System.ServiceModel.Channels.SecurityChannelFactory
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>2017-02-16 13:37:59</td>
+                                <td>MessagesScreen</td>
+                                <td class="vertical-align-mid">
+                                    System.TimeoutException: The request channel timed out while waiting for a reply after 00:00:44.5147458.
+                                </td>
+                                <td class="vertical-align-mid">
+                                    at System.ServiceModel.Channels.RequestChannel.Request
+                                    at System.ServiceModel.Channels.SecurityChannelFactory
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end user projects -->
+                </div>
+
+                <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+                    <!-- start user projects -->
+                    <table class="data table table-striped no-margin">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Project Name</th>
+                                <th>Client Company</th>
+                                <th class="hidden-phone">Hours Spent</th>
+                                <th>Contribution</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>New Company Takeover Review</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">18</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" data-transitiongoal="35"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>New Partner Contracts Consultanci</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">13</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger" data-transitiongoal="15"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Partners and Inverstors report</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">30</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" data-transitiongoal="45"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>New Company Takeover Review</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">28</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" data-transitiongoal="75"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end user projects -->
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
+                    <!-- start user projects -->
+                    <table class="data table table-striped no-margin">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Project Name</th>
+                                <th>Client Company</th>
+                                <th class="hidden-phone">Hours Spent</th>
+                                <th>Contribution</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>New Company Takeover Review</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">18</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" data-transitiongoal="35"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>New Partner Contracts Consultanci</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">13</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger" data-transitiongoal="15"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Partners and Inverstors report</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">30</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" data-transitiongoal="45"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>New Company Takeover Review</td>
+                                <td>Deveint Inc</td>
+                                <td class="hidden-phone">28</td>
+                                <td class="vertical-align-mid">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" data-transitiongoal="75"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- end user projects -->
+                </div>
+            </div>
+        </div>
+</div>
